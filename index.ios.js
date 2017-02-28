@@ -11,11 +11,11 @@ import {
   Text,
   View
 } from 'react-native';
-import SplashTitle from './src/js/components/atoms/SplashTitle';
+import SplashScreen from './src/js/components/atoms/SplashScreen';
 export default class GitHubApp extends Component {
   render() {
     return (
-      <SplashTitle />
+      <SplashScreen />
     );
   }
 }
