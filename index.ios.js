@@ -11,11 +11,11 @@ import {
   Text,
   View
 } from 'react-native';
-import SplashScreen from './src/js/components/atoms/SplashScreen';
+import LoginScreen from './src/js/components/atoms/LoginScreen';
 export default class GitHubApp extends Component {
   render() {
     return (
-      <SplashScreen />
+      <LoginScreen />
     );
   }
 }
